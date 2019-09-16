@@ -162,9 +162,11 @@ As Grace Hopper said:
 * 이미지의 사이즈를 변경하기 위해서는 `<img width="OOOpx" height="OOOpx"></img>`와 같이 표현합니다.
 ### Syntax 마크다운 사용법
 	![alt 토마토](/img/tomato.jpg)
+  ![alt man](/img/man_laptop.jpg)
 	![alt Concrete Buildings](https://github.com/jinkyukim-me/markdown_ko/blob/master/img/concrete_building.jpg)
 ### Demonstration 실행결과
 ![alt 토마토](/img/tomato.jpg)
+![alt man](/img/man_laptop.jpg)
 ![alt Concrete Buildings](https://github.com/jinkyukim-me/markdown_ko/blob/master/img/concrete_building.jpg)
 
 ## 7. Links (Anchor) 링크
