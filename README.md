@@ -1,5 +1,5 @@
 # Markdown Syntax 마크다운 작성법
-마크다운(Markdown)은 일반 텍스트 문서의 양식을 편집하는 문법입니다.<br><br> 
+마크다운(Markdown)은 일반 텍스트 문서의 양식을 편집하는 문법입니다.<br><br>
 README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰입니다.<br><br>
 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능합니다.<br><br>
 존 그루버는 2004년에 문법 면에서 [에런 스워츠](https://ko.wikipedia.org/wiki/%EC%97%90%EB%9F%B0_%EC%8A%A4%EC%9B%8C%EC%B8%A0)와
@@ -9,7 +9,7 @@ README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서
 * `읽기 쉽다.` 확실히 마크다운은 다른 마크업 언어에 비해 가독성이 좋습니다. 문법도 단순하고, HTML은 작성하면서 브라우저에서 어떻게 보여
 질지 예상하는게 쉽지 않지만, 마크다운을 사용한 텍스트는 브라우저에 보여질 내용을 쉽게 상상할 수 있습니다.
 * `익히기 쉽다.` 존 그루버는 사람들이 많이 사용하는 것은 마크다운으로 사용하고, 복잡한 것은 HTML로 사용하기 바랬습니다. 그래서 문법이 매우 간단합니다. 그리고 마크다운으로 글을 작성할 때, 제한적인 기능 몇 개를 제외하고 HTML을 함께 사용해도 상관없습니다.
-* `모바일 친화적이다.` 단순히 텍스트만 작성하는 것이 아닌 에디터를 이용해 모바일로 작성하는 것은 쉽지 않습니다. 하지만 마크다운을 이용하면 모바일에서도 태그로 쉽게 서식을 넣을 수 있어서, 에디터보다 훨씬 편합니다. 
+* `모바일 친화적이다.` 단순히 텍스트만 작성하는 것이 아닌 에디터를 이용해 모바일로 작성하는 것은 쉽지 않습니다. 하지만 마크다운을 이용하면 모바일에서도 태그로 쉽게 서식을 넣을 수 있어서, 에디터보다 훨씬 편합니다.
 ## Markdown Cons 마크다운 단점
 * `문법이 너무 단순하다.` 문법이 단순한 나머지 결국에는 HTML을 써야하는 경우가 생깁니다. 테이블 정렬 기능은 있지만, 이미지 정렬 기능이 없어서 HTML의 img 태그를 사용해야합니다. 태그에 클래스 지정등이 불가능하기 때문에, 클래스나 id를 지정하려면 HTML을 사용해야합니다.
 * `표준이 없어 사용자마다 문법이 상이할 수 있다.` 문법이 단순하다 보니, 이러한 점을 해결하기 위해 확장문법들이 생겼고, 이러한 것들 때문에 한 곳에서 작동하는 마크다운 문서가 다른 곳에서는 잘 작동하지 않는 경우가 생기기도 합니다.
@@ -37,12 +37,12 @@ README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서
 * `#`이 늘어날때마다 제목의 스케일 낮아집니다.
 * H1은 `===`로도 만들 수 있습니다.
 * H2는 `---`로도 만들 수 있습니다.
-### Syntax 마크다운 사용법 
+### Syntax 마크다운 사용법
     This is an H1
     ===
     This is an H2
     ---
-    # This is an H1 
+    # This is an H1
     ## This is an H2
     ### This is an H3
     #### This is an H4
@@ -138,7 +138,7 @@ As Grace Hopper said:
        1. Item 1
        2. Item 2
        3. Item 3
-       
+
 ## 5. Backslash Escapes 백슬래쉬 이스케이프
 * 특수문자를 표현할 때, 표시될 문자 앞에 `\`를 넣고 특수문자를 쓰면 됩니다.
 * 주의할 점은 앞과 뒤에가 형식이 똑같이 백슬래쉬 뒤에 특수문자입니다. `감싸는 형태가 아닙니다.`
@@ -162,21 +162,21 @@ As Grace Hopper said:
 * 이미지의 사이즈를 변경하기 위해서는 `<img width="OOOpx" height="OOOpx"></img>`와 같이 표현합니다.
 ### Syntax 마크다운 사용법
 	![alt 토마토](/img/tomato.jpg)
-	![alt Concrete Buildings](https://github.com/jinkyukim-me/open-tutorial/blob/master/img/concrete_building.jpg)
+	![alt Concrete Buildings](https://github.com/jinkyukim-me/markdown_ko/blob/master/img/concrete_building.jpg)
 ### Demonstration 실행결과
 ![alt 토마토](/img/tomato.jpg)
-![alt Concrete Buildings](https://github.com/jinkyukim-me/open-tutorial/blob/master/img/concrete_building.jpg)
+![alt Concrete Buildings](https://github.com/jinkyukim-me/markdown_ko/blob/master/img/concrete_building.jpg)
 
 ## 7. Links (Anchor) 링크
-## 7.1. External Links 외부 링크 
+## 7.1. External Links 외부 링크
 	인라인 링크: [링크](http://example.com "링크 제목")
 	url 링크: <example.com>, <example@example.com>; 꺽쇠 괄호 없어도 자동으로 링크를 사용
 ### Syntax 마크다운 사용법
 	[Google](http://www.google.com "구글")
 	[Naver](http://www.naver.com "네이버")
 	[Github](http://www.github.com "깃허브")
-	구글 www.google.com; 꺽쇠없음 
-	네이버 <www.naver.com>; 꺽쇠있음 
+	구글 www.google.com; 꺽쇠없음
+	네이버 <www.naver.com>; 꺽쇠있음
 	My mail <jinkyukim.dev@gmail.com>
 ### Demonstration 실행결과
 [Google](http://www.google.com "구글")<br>
@@ -185,7 +185,7 @@ As Grace Hopper said:
 구글 www.google.com <br>
 네이버 <www.naver.com> <br>
 My mail <jinkyukim.dev@gmail.com><br>
-## 7.2. Internal Links 내부 링크 
+## 7.2. Internal Links 내부 링크
 	[보여지는 내용](#이동할 헤드(제목))
 	괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성
 ### Syntax 마크다운 사용법
@@ -210,7 +210,7 @@ My mail <jinkyukim.dev@gmail.com><br>
 	~~~
 	This is code blocks.
 	~~~
-		4 spaces 
+		4 spaces
 	```javascript
 	function test() {
 	 console.log("look ma’, no spaces");
@@ -277,11 +277,11 @@ supported)
 ### Syntax 마크다운 사용법
 	GitHub supports emoji!
 	:+1: :sparkles: :camel: :tada:
-	:rocket: :metal: :octocat: 
+	:rocket: :metal: :octocat:
 ### Demonstration 실행결과
 GitHub supports emoji!
 :+1: :sparkles: :camel: :tada:
-:rocket: :metal: :octocat: 
+:rocket: :metal: :octocat:
 
 ## 12. Table 테이블
 * 헤더와 셀을 구분할 때 3개 이상의 `-`(hyphen/dash) 기호가 필요합니다.
@@ -299,8 +299,8 @@ GitHub supports emoji!
 	테이블 정렬
 
 	헤더1|헤더2|헤더3
-	:---|:---:|---: 
-	Left|Center|Right 
+	:---|:---:|---:
+	Left|Center|Right
 	1|2|3
 	4|5|6
 	7|8|9
@@ -316,8 +316,8 @@ GitHub supports emoji!
 테이블 정렬
 
 헤더1|헤더2|헤더3
-:---|:---:|---: 
-Left|Center|Right 
+:---|:---:|---:
+Left|Center|Right
 1|2|3
 4|5|6
 7|8|9
