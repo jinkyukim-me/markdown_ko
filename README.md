@@ -347,4 +347,4 @@ You got me fly so fast
 * [존 그루버의 웹사이트](https://daringfireball.net/projects/markdown/)
 
 
-정말 이건 간지!!!
+포크의 변화를 감지해봅시다
