@@ -346,5 +346,3 @@ You got me fly so fast
 * [마크다운 위키백과](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)
 * [존 그루버의 웹사이트](https://daringfireball.net/projects/markdown/)
 
-
-포크의 변화를 감지해봅시다
